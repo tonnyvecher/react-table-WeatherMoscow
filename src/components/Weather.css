@@ -1,0 +1,25 @@
+.weather-table {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+tr,
+td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.weather-table__header {
+  background-color: #6abff9;
+  color: white;
+}
+
+.weather-table__row:nth-child(even) {
+  background-color: #e8f4fc;
+}
